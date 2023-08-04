@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    /* input::placeholder
+    {
+        color:red;
+    } */
+    /* div::selection
+    {
+        background-color: red;
+    } */
+ div{
+    width: 50%;
+    height: 50vh;
+    /* background-color: red; */
+ }
+    div::before
+ {
+    /* opacity: 0.1; */
+    /* margin-top: -100px; */
+    width: 50%;
+    height: 50vh;;
+    background-color:red;
+    display: block;
+    position: absolute;
+    content: "";
+    /* margin-top: 4%; */
+ }
+ div:hover::before
+ {
+    background:linear-gradient(aqua,red,orange);
+    content: "asdsad";
+}
+</style>
+</head>
+<body>
+    <div>before
+    </div>
+    <input type="text" placeholder="holder">
+</body>
+</html>
