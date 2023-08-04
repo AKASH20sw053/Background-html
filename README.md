@@ -15,11 +15,13 @@ You can use keywords like left, right, center, top, bottom, or specific values l
 
 background-size: Sets the size of the background image. You can use keywords like cover (scales the image to cover the entire container) or contain (scales the image to fit inside the container without cropping).
 
-background-attachment: Specifies whether the background image scrolls with the content or stays fixed. Values can be scroll (default) or fixed.
+background-attachment: Specifies whether the background image scrolls with the content or stays fixed. 
+Values can be scroll (default) or fixed.
 
 background-origin: Defines the starting point of the background image relative to the padding box or the content box of the element.
 
-background-clip: Determines the area within which the background is displayed. You can use values like border-box, padding-box, or content-box.
+background-clip: Determines the area within which the background is displayed. 
+You can use values like border-box, padding-box, or content-box.
 
 background-blend-mode: Allows you to blend the background color or image with the content of the element using blending modes like multiply, screen, overlay, etc.
 
