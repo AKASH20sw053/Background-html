@@ -1,0 +1,27 @@
+
+/* Setting a background color */
+div {
+  background-color: #f0f0f0;
+}
+
+/* Using a background image */
+div {
+  background-image: url('path/to/image.jpg');
+}
+
+/* Setting background image position and size */
+div {
+  background-image: url('path/to/image.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+/* Creating a linear gradient background */
+div {
+  background-image: linear-gradient(to bottom, #ff0000, #00ff00);
+}
+
+/* Creating a radial gradient background */
+div {
+  background-image: radial-gradient(circle, #ff0000, #00ff00);
+}
