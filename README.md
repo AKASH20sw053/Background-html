@@ -20,7 +20,8 @@ background-size: Sets the size of the background image. You can use keywords lik
 background-attachment: Specifies whether the background image scrolls with the content or stays fixed. 
 Values can be scroll (default) or fixed.
 
-background-origin: Defines the starting point of the background image relative to the padding box or the content box of the element.
+background-origin: Defines the starting point of the background image relative to the,
+padding box or the content box of the element.
 
 background-clip: Determines the area within which the background is displayed. 
 You can use values like border-box, padding-box, or content-box.
