@@ -1,9 +1,11 @@
 # Background-html
+
 In CSS (Cascading Style Sheets), the background property is used to set various aspects of an element's background. 
 It allows you to control the color, image, size, position, and repetition of the background of an HTML element. 
 Here's an overview of some common background-related properties in CSS:
 
-background-color: Sets the background color of an element. You can use color names, hexadecimal values, RGB, or HSL values.
+background-color: Sets the background color of an element. You can use color names, 
+hexadecimal values, RGB, or HSL values.
 
 background-image: Specifies the background image to be displayed behind the content. 
 You can use a URL to an image file or use the linear-gradient() or radial-gradient() function for gradient backgrounds.
